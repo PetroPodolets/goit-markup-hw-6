@@ -194,7 +194,7 @@ body {
     padding: 96px 0;
 }
 
-.section-two-title,
+
 .section-three-title,
 .section-four-title {
     color: #2E2F42;
@@ -204,6 +204,27 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+}
+
+.section-two-title {
+
+    /* Header 2 */
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.1;
+
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.section-two-text {
+    color: #434455;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .section-two-lists {
@@ -234,10 +255,7 @@ body {
 
 .section-three-list {
     background-color: #FFF;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+
     gap: 32px;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -799,6 +817,7 @@ body {
 
     .mobile-address {
         margin-top: 168px;
+        color: #4D5AE5;
     }
 
     .mobile-address-contacts {
@@ -808,8 +827,15 @@ body {
     }
 
     .page-link {
-        margin-top: 72px;
+        margin-top: auto;
+
     }
+
+    .studio,
+    .number {
+        color: #4D5AE5;
+    }
+
 
     .mobile-link:hover,
     .mobile-link:focus {
@@ -849,6 +875,10 @@ body {
 
     .section-two-lists {
         flex-direction: column;
+    }
+
+    .section-two-title {
+        text-align: center;
     }
 
 
@@ -918,7 +948,10 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
         font-style: normal;
         display: flex;
 
+
     }
+
+
 
     .page-link {
         display: block;
@@ -954,7 +987,10 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     }
 
     .address-contacts {
-        gap: 8px;
+
+        display: flex;
+        gap: 12px;
+        flex-direction: column;
     }
 
     .contacts {
@@ -1059,6 +1095,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     .address-contacts {
         display: flex;
         gap: 40px;
+        flex-direction: row;
     }
 
     .contacts {
@@ -1092,6 +1129,21 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     }
 
     /* ============= SECTION-TWO ============= */
+
+    .section-two {
+        padding: 120px 0;
+    }
+
+    .section-two-title {
+        color: #2E2F42;
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+    }
+
+
 
     .section-two-list {
         gap: 8px;
