@@ -215,6 +215,7 @@ body {
 
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 8px;
 }
 
 .section-two-text {
@@ -825,7 +826,7 @@ body {
     }
 
     .page-link {
-        margin-top: auto;
+        margin-bottom: auto;
 
     }
 
